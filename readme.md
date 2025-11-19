@@ -11,6 +11,9 @@ python find_token_id.py --url "https://polymarket.com/event/bitcoin-up-or-down-n
 
 This will automatically extract the token IDs from the market.
 
+<iframe src="https://drive.google.com/file/d/1gAo5CZW9WZmlBhX6P3rvtnkbpYuLLkZW/preview" width="640" height="360" allowfullscreen></iframe>
+
+
 ## Alternative Methods
 
 ### Method 1: Browser Developer Tools (Most Reliable)
