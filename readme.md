@@ -1,6 +1,6 @@
 # How to Find YES/NO Token IDs from Polymarket URLs
 
-[Watch Demo Video](demo.html)
+[Watch the demo video](https://drive.google.com/file/d/1gAo5CZW9WZmlBhX6P3rvtnkbpYuLLkZW/preview)
 
 ## Quick Method: Use the Script
 
