@@ -368,6 +368,20 @@ class PolymarketClient:
         except Exception as e:
             print(f"Error getting open orders: {e}")
             return []
+
+    def get_trades(self, token_id: Optional[str] = None):
+        """Get recent trades/fills.
+
+        The CLOB client expects a params object or dict; when filtering by
+        token_id we pass a simple dict to avoid relying on an order-specific
+        params class.
+        """
+        try:
+            params = {"asset_id": token_id} if token_id else None
+            return self.client.get_trades(params)
+        except Exception as e:
+            print(f"Error getting trades: {e}")
+            return []
     
     def get_balance(self):
         """Get account balance"""
@@ -379,4 +393,3 @@ class PolymarketClient:
         except Exception as e:
             print(f"Error getting balance: {e}")
             return None
-
